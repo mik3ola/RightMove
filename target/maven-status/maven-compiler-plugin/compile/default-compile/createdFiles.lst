@@ -1,0 +1,4 @@
+Pages\SearchResultPage.class
+com\move\TestRightMove\BaseTest.class
+com\move\TestRightMove\StepDef.class
+com\move\TestRightMove\Runner.class

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.460502">
+<testcase classname="find Functionality" name="Searching for a property of a price between 150 to 700k" time="11.774761">
+<system-out><![CDATA[Given I am on search location page on "browser".............................passed
+When I select my search radious as "5miles".................................passed
+And I select minium price range as "200,000"................................passed
+And I select maximum price range as "700,000"...............................passed
+And I select Propery type as "Houses".......................................passed
+And I click on find Properties button.......................................passed
+Then I should be Presented with SearcH......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Functionality" name="Searching for Selenium book" time="8.685741">
+<system-out><![CDATA[Given I am on RightMove Home Page on "browser"..............................passed
+When I enter my search as "Lo"..............................................passed
+And I click on the first link of the Predictive Search......................passed
+And I click on for sale button..............................................passed
+Then I should be Presented with a Property for sale London page.............passed
+]]></system-out>
+</testcase>
+</testsuite>
